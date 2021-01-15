@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="url" value="http://demo.guru99.com/test/newtours/index.php"></parameter>
+  <parameter name="username" value="QQQQQ"></parameter>
+  <parameter name="password" value="qqqqq"></parameter>
+  <parameter name="username1" value="ZZZZZ"></parameter>
+  <parameter name="password1" value="zzzzz"></parameter>
+    <classes>
+       <class name="com.hrishi.DemoMercury"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
