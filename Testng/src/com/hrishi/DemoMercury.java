@@ -59,12 +59,6 @@ System.out.println("BEFORE CLASS MAXIMIZE");
 public void getallcookies()
 {
 System.out.println("BEFORE METHOD CCOKIES");
-driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-Set<Cookie> cookies1=driver.manage().getCookies();	
-for (Cookie cookie : cookies1) 
-{
-System.out.println("COOKIE NAME= "+cookie.getName());
-}
 }
 
 @Parameters({"username","password"})
