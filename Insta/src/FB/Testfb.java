@@ -11,6 +11,6 @@ public class Testfb {
 		driver.get("https://www.instagram.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.linkText("Sign up")).click();
-		driver.findElement(By.xpath("//*[text()='Mobile Number or Email']")).sendKeys("ddd");
+		driver.findElement(By.xpath("//*[text()='Mobile Number or Email']")).sendKeys("dd");
 	}
 }
