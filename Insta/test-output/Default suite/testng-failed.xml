@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.hrishi.DemoFbTestng">
+      <class name="FB.Testfb">
         <methods>
           <include name="openbrowser"/>
-          <include name="getcookies"/>
-          <include name="signup"/>
-          <include name="appmaximize"/>
-          <include name="openappurl"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.hrishi.DemoFbTestng -->
+      </class> <!-- FB.Testfb -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

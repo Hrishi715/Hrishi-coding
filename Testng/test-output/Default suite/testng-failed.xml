@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.hrishi.DemoMercury">
+      <class name="com.hrishi.DemoFbTestng">
         <methods>
-          <include name="loginwithvaliddata"/>
           <include name="openbrowser"/>
-          <include name="loginwithvaliddata1"/>
+          <include name="getcookies"/>
+          <include name="signup"/>
+          <include name="appmaximize"/>
+          <include name="openappurl"/>
         </methods>
-      </class> <!-- com.hrishi.DemoMercury -->
+      </class> <!-- com.hrishi.DemoFbTestng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

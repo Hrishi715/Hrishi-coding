@@ -73,7 +73,7 @@ driver.findElement(By.name("reg_passwd__")).sendKeys("hrishi77777");
 @AfterMethod
 public void capturescreenshot() throws IOException
 {
-	System.out.println("AFTER METHOD SCREENSHOT");
+System.out.println("AFTER METHOD SCREENSHOT");
 File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 FileUtils.copyFile(src, new File("D:\\Screenshots\\Fb.png"));
 System.out.println("succesfully took");
@@ -82,7 +82,7 @@ System.out.println("succesfully took");
 @AfterClass
 public void deletecookies()
 {
-	System.out.println("AFTERCLASS DELETE COOKIE");
+System.out.println("AFTERCLASS DELETE COOKIE");
 driver.manage().deleteAllCookies();	
 }
 

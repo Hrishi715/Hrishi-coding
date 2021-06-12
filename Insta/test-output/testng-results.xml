@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9402" started-at="2020-10-21T04:58:23Z" finished-at="2020-10-21T04:58:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9402" started-at="2020-10-21T04:58:23Z" finished-at="2020-10-21T04:58:32Z">
+      <class name="FB.Testfb">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:FB.Testfb@51efea79]" name="openbrowser" is-config="true" duration-ms="4287" started-at="2020-10-21T10:28:18Z" finished-at="2020-10-21T10:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="openurl()[pri:0, instance:FB.Testfb@51efea79]" name="openurl" is-config="true" duration-ms="7179" started-at="2020-10-21T10:28:23Z" finished-at="2020-10-21T10:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="maximize()[pri:0, instance:FB.Testfb@51efea79]" name="maximize" is-config="true" duration-ms="2123" started-at="2020-10-21T10:28:30Z" finished-at="2020-10-21T10:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="waitfor()[pri:0, instance:FB.Testfb@51efea79]" name="waitfor" is-config="true" duration-ms="4" started-at="2020-10-21T10:28:32Z" finished-at="2020-10-21T10:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitfor -->
+        <test-method status="PASS" signature="test()[pri:0, instance:FB.Testfb@51efea79]" name="test" duration-ms="78" started-at="2020-10-21T10:28:32Z" finished-at="2020-10-21T10:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:FB.Testfb@51efea79]" name="close" is-config="true" duration-ms="0" started-at="2020-10-21T10:28:32Z" finished-at="2020-10-21T10:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FB.Testfb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
